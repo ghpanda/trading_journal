@@ -18,9 +18,22 @@
             <p>Day Win %</p>
         </div>
         <div class="right">
-            <h2>Trade Log</h2>
-            <button class="AddTrade">Add Trade</button>
-            <hr>
+            <h2>Trading Log</h2>
+            <h3>Add a Trade</h3>
+            <form id = "TradeForm">
+                <label for="Symbol">Symbol: </label>
+                <input type="text" class = "TradeInput">
+                <label for="Size">Size: </label>
+                <input type="text" class = "TradeInput">
+                <label for="Entry">Entry: </label>
+                <input type="text" class = "TradeInput">
+                <label for="Exit">Exit: </label>
+                <input type="text" class = "TradeInput">
+                <label for="Pnl">P&L: </label>
+                <input type="text" class = "TradeInput">
+                <button type="submit">Add Trade</button>
+            </form>
+
             <table>
                 <tr>
                     <th>Symbol</th>

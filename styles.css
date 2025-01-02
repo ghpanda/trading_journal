@@ -26,3 +26,8 @@ button.AddTrade {
     top: 5px;
     right: 10px;
 }
+
+.TradeInput {
+    width: 50px;
+    margin: 5px;
+}
