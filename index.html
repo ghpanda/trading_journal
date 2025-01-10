@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/images/favicon/site.webmanifest">
+    <script src="script.js"></script>
 </head>
 <body style="background-color: grey;">
     <div class="spilt">
@@ -22,15 +23,15 @@
             <h3>Add a Trade</h3>
             <form id = "TradeForm">
                 <label for="Symbol">Symbol: </label>
-                <input type="text" class = "TradeInput">
+                <input type="text" class="TradeInput" id = "sym" name = "symbol">
                 <label for="Size">Size: </label>
-                <input type="text" class = "TradeInput">
+                <input type="text" class = "TradeInput" name = "size">
                 <label for="Entry">Entry: </label>
-                <input type="text" class = "TradeInput">
+                <input type="text" class = "TradeInput" name = "entry">
                 <label for="Exit">Exit: </label>
-                <input type="text" class = "TradeInput">
+                <input type="text" class = "TradeInput" name = "Exit">
                 <label for="Pnl">P&L: </label>
-                <input type="text" class = "TradeInput">
+                <input type="text" class = "TradeInput" name = pnl>
                 <button type="submit">Add Trade</button>
             </form>
 
@@ -50,7 +51,9 @@
                     <td>250</td>
                 </tr>
             </table>
+            
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
